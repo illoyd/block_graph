@@ -32,6 +32,12 @@ gem 'puma'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# OrientDB connections
+gem 'orientdb', github: 'illoyd/orientdb-jruby'
+
+# Bitcoin library
+gem 'bitcoin-ruby'
+
 group :development, :test do
 end
 
