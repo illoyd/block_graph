@@ -39,6 +39,9 @@ gem 'orientdb', github: 'illoyd/orientdb-jruby'
 gem 'bitcoin-ruby'
 
 group :development, :test do
+  gem 'rspec'
+  gem 'rspec-rails'
+  gem 'rspec-its'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
